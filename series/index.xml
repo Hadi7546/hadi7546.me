@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Hadi Azarnasab</title>
-    <link>https://example.com/series/</link>
+    <link>https://hadi7546.me/series/</link>
     <description>Recent content in Series on Hadi Azarnasab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://example.com/series/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://hadi7546.me/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
