@@ -1,0 +1,136 @@
+baseURL = "https://example.com"
+title   = "Hadi Azarnasab"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Hadi Azarnasab"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Metadata mostly used in document's head
+  # 
+  description = "Hadi Azarnasab Personal Website"
+  keywords = "Hadi, Hadi7546, HadiAzarnasab"
+  images = ["images/Hadi-new.png"]
+
+  homeSubtitle = "A 14 Y/O Student | Flutter & GoLang Developer | Astronomy & Physics Lover"
+
+
+  disableReadOtherPosts = false
+  enableThemeToggle = true
+  enableSharingButtons = true
+  enableGlobalLanguageMenu = false
+
+  customCSS = []
+  customJS  = []
+
+  justifyContent = false  
+
+  [params.footer]
+    trademark = true
+    rss = false
+    copyright = false
+    author = true
+
+    topText = []
+    bottomText = []
+
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = " "
+    logoText     = "Hadi7546"
+    logoHomeLink = "/"
+    logoCursorDisabled = true
+
+  [params.portrait]
+    path     = "images/Hadi-new.png"
+    alt      = "Portrait"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://social.hadi7546.me/twitter"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://social.hadi7546.me/github"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://social.hadi7546.me/linkedin"
+  
+  [[params.social]]
+    name = "telegram"
+    url  = "https://social.hadi7546.me/telegram"
+
+  [[params.social]]
+    name = "discord"
+    url  = "https://social.hadi7546.me/discord"
+
+  [[params.social]]
+    name = "spotify"
+    url  = "https://social.hadi7546.me/spotify"
+ 
+  [[params.social]]
+    name = "email"
+    url  = "mailto:hi@hadi7546.me"
+
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "https://blog.hadi7546.me"
+  [[menu.main]]
+    identifier = "resume"
+    name       = "Resume"
+    url        = "https://resume.hadi7546.me"
